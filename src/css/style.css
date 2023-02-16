@@ -1,0 +1,92 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.formulario {
+  background-image: url(../image/bg.jpg);
+  width: 800px;
+  height: 402px;
+  display: flex;
+  align-items: center;
+}
+
+.formulario .cartaz {
+  margin: 40px;
+}
+
+.formulario .cartaz .titulo {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 11px;
+}
+
+.formulario .form {
+  background-color: #fff;
+  height: 378px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.formulario .form .input {
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.formulario .form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+  font-weight: 700;
+}
+
+.formulario .form .obrigatorio {
+  color: #000;
+}
+
+.formulario .form .button {
+  margin-top: 11px;
+  background-color: #3ccc87;
+  border: none;
+  color: #fff;
+  padding: 12px 0 12px 0;
+  border-radius: 5px;
+}
+
+.formulario .form .paragrafo {
+  color: #f52e2e;
+  font-size: 8px;
+  font-weight: 400;
+  align-self: right;
+  margin-bottom: 6px;
+}
+
+.escondido {
+  visibility: hidden;
+}
+
+.Error {
+  border: 3px solid #f52e2e;
+}
+
+.Right {
+  border: 3px solid #3ccc87;
+}
+
+textarea:focus,
+input:focus {
+  outline-color: rgba(255, 255, 255, 0.3);
+}
