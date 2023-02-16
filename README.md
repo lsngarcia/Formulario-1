@@ -6,3 +6,5 @@ e remove o style .escondido com o hidden que nas tag P para aparecer o texto "ca
 
 Função validarInput é um if com o valor do input sendo !=="", "diferente de nada até mesmo variavel", quando começar a digitar a aciona,
 chamando a função setRight que adiciona o style .Right que deixa as bordas do input verde, remove o style .Error, e adiciona o style .escondido
+
+https://lsngarcia.github.io/Formulario-1/
